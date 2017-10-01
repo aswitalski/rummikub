@@ -1,0 +1,60 @@
+.trophy {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 30px;
+  -webkit-mask-image: url('../../images/trophy.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  background-color: #b7b7b7;
+}
+
+.info {
+  display: none;
+  width: 100%;
+  color: #ccc;
+  font-size: 30px;
+}
+
+.prev-player {
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
+.player-name {
+  color: #fff389;
+  font-size: 120px;
+}
+
+.timer .value {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: all 1s ease-out;
+  color: #fff;
+  font: menu;
+  font-size: 280px;
+  line-height: 290px;
+  font-family: sans-serif;
+}
+
+.timer.warning .value {
+  color: red;
+}
+
+.timer.time-out .value {
+  color: red;
+}
+
+.header .competition {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  }
+
+.header .round {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0 0 0 16px;
+  color: rgba(255, 255, 255, 0.6);
+}

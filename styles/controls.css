@@ -1,0 +1,41 @@
+.controls {
+  box-sizing: border-box;
+  --button-size: 80px;
+}
+
+.controls button {
+  height: var(--button-size);
+  width: var(--button-size);
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+  opacity: 0.4;
+  --webkit-appearance: none;
+}
+
+.controls button:not(:last-child) {
+  margin-right: 100px;
+}
+
+.controls .previous-player {
+  background-image: url('../images/fast-forward.svg');
+  opacity: 0.3;
+  transform: rotate(180deg);
+}
+
+.controls .reload {
+  background-image: url('../images/reload.svg');
+}
+
+.controls .pause {
+  background-image: url('../images/pause.svg');
+}
+
+.controls .play {
+  background-image: url('../images/play.svg');
+}
+
+.controls .next-player {
+  background-image: url('../images/fast-forward.svg');
+  opacity: 0.9;
+}

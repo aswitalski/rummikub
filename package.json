@@ -1,0 +1,30 @@
+{
+  "name": "rummikub",
+  "version": "0.1.0",
+  "description": "A Web app to manage Rummikub games",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aswitalski/rummikub.git"
+  },
+  "keywords": [
+    "rummikub"
+  ],
+  "author": "Aleksander Świtalski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aswitalski/rummikub/issues"
+  },
+  "homepage": "https://github.com/aswitalski/rummikub#readme",
+  "dependencies": {
+    "toolkit": "git+https:://github.com/operasoftware/toolkit.git"
+  },
+  "devDependencies": {
+    "express": "^4.16.1",
+    "mocha": "^3.5.3"
+  }
+}
